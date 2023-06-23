@@ -1,7 +1,7 @@
 # Marketing common data modelling challenge
 	
 
-## Task: to rebuilt a model. 
+## Task: to rebuilt a model used at Improvado. Imagine that MCDM-model behind dashboard, is lost somehow.
 Given:
  
 	- raw data from the ad systems (seeds folder): 
