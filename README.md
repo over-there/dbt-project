@@ -1,14 +1,18 @@
 # Marketing common data modelling challenge
 	
 
-## Task:
- To rebuilt a model. Given:
-	— raw data from the ad systems (seeds folder): 
-    		- src_ads_bing_all_data
-    		- src_ads_creative_facebook_all_data
-    		- src_ads_tiktok_ads_all_data
-    		- src_promoted_tweets_twitter_all_data,
+## Task: to rebuilt a model. 
+Given:
+ 
+	- raw data from the ad systems (seeds folder): 
+ 
+    		* src_ads_bing_all_data
+    		* src_ads_creative_facebook_all_data
+    		* src_ads_tiktok_ads_all_data
+    		* src_promoted_tweets_twitter_all_data,
+      
 	- the MCDM table structure for this report (seeds folder): mcdm_paid_ads_basic_performance_structure, 
+ 
 	- and [dashboard](https://lookerstudio.google.com/reporting/fa668749-b82f-41a8-a12e-f7d9c0733b57/page/tEnnC)
 
 ### Important: Due to difficulties with the suggested tools, I used GitHub, Python, and Tableau.
@@ -18,12 +22,16 @@
 To build the required model, I merged the data from four files into the final MCDM. Some files had missing data or renamed fields.
 
     1. Load the files in Jupyter Notebook.
+    
     2. Check the data quality: missing values, errors.
+    
     3. Compare the column names in the final model with the available data and complete the datasets. At this stage, it became evident that a significant number of columns needed to be added and renamed.
     For example, for Tiktok, we replaced the adgroup_id column with adset_id, and rt_installs with installs. For Bing, we renamed the conv column to total_conversions.
-    For Facebook, we additionally calculated **engagements = likes + shares + comments + views + clicks**, and set total_conversions equal to the purchase column as the target conversion.
+    For Facebook, we additionally calculated *engagements = likes + shares + comments + views + clicks*, and set total_conversions equal to the purchase column as the target conversion.
+    
     4. We also added missing columns to each dataset for each channel: if the data type is INT, we used 0, and if it's STRING, we used "unknown".
     5. After unifying all four datasets following the format of the final model, we combined the data into the resulting table. This table can be found in the mcdm_model folder **mcdm_final** file.
+    
     6. Create a dashboard using the final model.
 
 ## Submission
