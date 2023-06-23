@@ -13,7 +13,7 @@ Given:
       
 	- the MCDM table structure for this report (seeds folder): mcdm_paid_ads_basic_performance_structure, 
  
-	- and [dashboard](https://lookerstudio.google.com/reporting/fa668749-b82f-41a8-a12e-f7d9c0733b57/page/tEnnC)
+ And [dashboard](https://lookerstudio.google.com/reporting/fa668749-b82f-41a8-a12e-f7d9c0733b57/page/tEnnC)
 
 ### Important: Due to difficulties with the suggested tools, I used GitHub, Python, and Tableau.
 
