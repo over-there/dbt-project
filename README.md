@@ -1,7 +1,7 @@
 # Marketing common data modelling challenge
 	
 
-## Task: to rebuilt a model used at Improvado. Imagine that MCDM-model behind dashboard, is lost somehow.
+### Task: to rebuilt a model used at Improvado. Imagine that MCDM-model behind dashboard, is lost somehow.
 Given:
  
 	- raw data from the ad systems (seeds folder): 
@@ -13,7 +13,7 @@ Given:
       
 	- the MCDM table structure for this report (seeds folder): mcdm_paid_ads_basic_performance_structure, 
  
- And [dashboard](https://lookerstudio.google.com/reporting/fa668749-b82f-41a8-a12e-f7d9c0733b57/page/tEnnC)
+ And there is a [dashboard](https://lookerstudio.google.com/reporting/fa668749-b82f-41a8-a12e-f7d9c0733b57/page/tEnnC)
 
 ### Important: Due to difficulties with the suggested tools, I used GitHub, Python, and Tableau.
 
